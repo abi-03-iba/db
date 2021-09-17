@@ -5,10 +5,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class JDBCExample {
-   static final String DB_URL = "jdbc:mysql://localhost/TUTORIALSPOINT";
+   static final String DB_URL = "jdbc:mysql://localhost/";
    static final String USER = "guest";
    static final String PASS = "guest123";
-   static final String QUERY = "SELECT * FROM Registration";
+   static final String QUERY = "SELECT * FROM MOVIES";
 
    public static void main(String[] args) {
       // Open a connection
