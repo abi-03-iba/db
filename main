@@ -18,10 +18,11 @@ public class JDBCExample {
       ) {		      
          while(rs.next()){
             //Display values
-            System.out.print("ID: " + rs.getInt("id"));
-            System.out.print(", Age: " + rs.getInt("age"));
-            System.out.print(", First: " + rs.getString("first"));
-            System.out.println(", Last: " + rs.getString("last"));
+            System.out.print("name: " + rs.getString("name"));
+            System.out.print(", actor: " + rs.getString("actor"));
+            System.out.print(", actress: " + rs.getString("actress"));
+            System.out.println(", director: " + rs.getString("director"));
+            System.out.println(", year: " + rs.getInt("director"));
          }
       } catch (SQLException e) {
          e.printStackTrace();
